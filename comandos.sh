@@ -10,10 +10,8 @@ pwd
 # 3 y 4. Crea la estructura de directorios para el proyecto
 mkdir -p proyecto_linux/documentos
 
-# 5. Crea un archivo de texto con un editor (requiere intervención manual)
-echo "Abre el editor nano para crear informe.txt. Escribe al menos 3 líneas y guarda." 
-read -p "Presiona Enter para abrir nano..." 
-nano proyecto_linux/documentos/informe.txt
+# 5. Crea un archivo de texto y llena contenido, todo desde una sola linea de comandos
+mkdir -p proyecto_linux/documentos && echo este es el contenido de mi archivo. >> proyecto_linux/documentos/informe.txt
 
 # 6. Entra al directorio documentos
 cd proyecto_linux/documentos
